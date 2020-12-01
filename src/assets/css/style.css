@@ -1,0 +1,62 @@
+@import './normalize.css';
+
+* {
+  margin : 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color          : black;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: #eee;
+}
+
+
+/* 登录样式 */
+.login {
+  padding: 50px;
+}
+
+.text {
+  font-size: 14px;
+}
+
+.item {
+  padding: 18px 0;
+}
+
+.box-card {
+  width : 400px;
+  margin: 0px auto;
+  padding: 20px 10px;
+}
+.card-first {
+  text-align: center;
+}
+.card-first a{
+  color: #666;
+}
+.card-first span {
+  margin: 0 50px;
+  color: #666;
+}
+.card-first a.router-link-active {
+  color: orangered !important;
+  text-decoration: underline;
+}
+.loginbtn {
+  width: 100% ;
+}
+
+.confirm{
+  text-align: center;
+  color: #999;
+  font-size: 12px;
+}
